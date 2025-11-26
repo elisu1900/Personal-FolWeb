@@ -106,6 +106,14 @@ nav a:hover::after {
     line-height: 1.8;
 }
 
+.text-section h2 {
+    text-align: center;
+    color: #3b82f6;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
 /* Sección CV */
 .cv-section {
     padding: 3rem 0;
@@ -353,7 +361,9 @@ footer {
     .tabla-section h2 {
         font-size: 2rem;
     }
-
+    .text-section h2{
+        font-size: 2rem;
+    }
     .footer-content {
         flex-direction: column;
         gap: 1.5rem;
@@ -463,6 +473,10 @@ footer {
 
     .cv-section h2,
     .tabla-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .text-section h2{
         font-size: 1.5rem;
     }
 
